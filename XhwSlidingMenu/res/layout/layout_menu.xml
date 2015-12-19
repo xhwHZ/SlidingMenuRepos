@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_bg"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView 
+            android:text="新闻"
+            android:drawableLeft="@drawable/tab_news"
+            android:background="#22DB7093"
+            style="@style/MenuTextItem"
+            />
+        <TextView 
+            android:text="订阅"
+            android:drawableLeft="@drawable/tab_read"
+            style="@style/MenuTextItem"
+            />
+        <TextView 
+            android:text="跟帖"
+            android:drawableLeft="@drawable/tab_ties"
+            style="@style/MenuTextItem"
+            />
+        <TextView 
+            android:text="图片"
+            android:drawableLeft="@drawable/tab_pics"
+            style="@style/MenuTextItem"
+            />
+        <TextView 
+            android:text="话题"
+            android:drawableLeft="@drawable/tab_ugc"
+            style="@style/MenuTextItem"
+            />
+        <TextView 
+            android:text="投票"
+            android:drawableLeft="@drawable/tab_vote"
+            style="@style/MenuTextItem"
+            />
+        <TextView 
+            android:text="聚合阅读"
+            android:drawableLeft="@drawable/tab_focus"
+            style="@style/MenuTextItem"
+            />
+        
+    </LinearLayout>
+
+</ScrollView>
